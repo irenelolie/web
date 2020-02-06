@@ -1,0 +1,265 @@
+#banner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#divPrincipal {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#header{
+    margin: auto;
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+}
+
+#mejorSerie{
+    font-weight: bolder;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav li a:hover{
+    background-color:rgb(247, 93, 93);
+}
+
+.nav li a{
+    background-color: rgb(216, 69, 64);
+    color: black;
+    text-decoration: none;
+    padding: 7px 77px;
+    display: block;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.imagenFriend{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 285px;
+}
+
+.descripcionSerie{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+}
+
+.video{
+    margin-top: 40px;
+    margin-right: 200px;
+    margin-left: 450px;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.divCompleto{
+    width: 100%;
+    display: inline-block;
+}
+
+.medioDiv{
+    width: 45%;
+    display: inline-block;
+}
+
+.descripcionPersonaje{
+    margin-top: 1px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 23px;
+}
+
+.tamañoImagen{
+    width: 500px;
+    height: 696px;
+}
+
+
+p,
+h1,
+form,
+button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.spacer {
+	clear: both;
+	height: 1px;
+}
+
+.myform {
+	margin: 0 auto;
+	width: 400px;
+	padding: 14px;
+}
+#stylized {
+	border: solid 2px #b7ddf2;
+	background: #ddf38d;
+}
+
+#stylized h1 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+#stylized p {
+	font-size: 11px;
+	color: #666666;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #b7ddf2;
+	padding-bottom: 10px;
+}
+
+#stylized label {
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
+}
+
+#stylized .small {
+	color: #666666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	width: 140px;
+}
+
+#stylized .smallUnlimited {
+	color: #666666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	/*width:140px;*/
+}
+
+.campoNormal {
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	/*border:solid 1px #aacfe4;*/
+	width: 200px;
+	margin: 2px 0 20px 10px;
+}
+
+.campoNormal:focus {
+	border: solid 1px #FF0000;
+	/* rojo */
+}
+
+.campoNormal:active {
+	background: rgb(143, 191, 245);
+	/* azul */
+}
+
+.campoNormal:hover {
+	border: solid 1px #0000FF;
+	/* azul */
+}
+
+.campoMenor {
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	text-align: left;
+	margin: 2px 150px 20px 7px;
+}	
+
+.campoMenorSinEspacioInferior {
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	text-align: left;
+	margin: 2px 150px 0px 7px;
+}
+
+.campoFicticio {
+	float: left;
+	font-size: 10px;
+	padding: 0px;
+	text-align: left;
+	margin: 2px 150px 0px 7px;
+}
+
+.boton {
+	clear: both;
+	margin-left: 150px;
+	width: 125px;
+	height: 31px;
+	background: #f37777 url(img/button.png) no-repeat;
+	text-align: center;
+	line-height: 31px;
+	color: rgb(19, 17, 17);
+	font-size: 11px;
+	font-weight: bold;
+}
+
+table , td, th {
+	margin-top: 60px;
+	margin-left: 0px;
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 3px;
+	width: 300px;
+	height: 30x;
+	text-align: center;
+	font-family: 'Handlee', cursiva;
+	font-size: 20px;
+}
+
+.even {
+	background: #fbf8f0;
+}
+
+.odd {
+	background: #fefcf9;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(19, 17, 17);
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h2{
+	margin-top: 60px;
+	margin-left: 75px;
+	font-family: 'Chilanka', cursive;
+}
